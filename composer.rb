@@ -10,7 +10,7 @@ end
 
 def get_remote(src, dest = nil)
   dest ||= src
-  repo = 'https://raw.github.com/80percent/rails-template/master/files/'
+  repo = 'https://raw.github.com/karidyang/rails-template/master/files/'
   remote_file = repo + src
   remove_file dest
   get(remote_file, dest)
